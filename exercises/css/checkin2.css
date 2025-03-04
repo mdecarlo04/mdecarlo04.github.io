@@ -1,0 +1,53 @@
+body {
+	font-family: Times New Roman, Times, serif; 
+	background-color: #f1edf5; }
+
+h1 {
+	font-family: "Griffy", serif; 
+	font-weight: 400;
+	font-style: normal;
+	font-size: 350%; }
+
+img {
+	max-width: 500px;
+    width: 100%;      
+    height: auto; }
+
+p { 
+	color: #270054;
+	margin: 1.5rem; 
+	padding-left: 1.5rem;
+	padding-right: 1.5rem;
+	line-height: 1.5rem; }
+
+ul {
+	color: #270054; 
+	margin: 1.5rem; 
+	padding-left: 1.5rem;
+	padding-right: 1.5rem;
+	line-height: 1.5rem; }
+
+ol {
+	margin: 1.5rem; 
+	padding-left: 1.5rem;
+	padding-right: 1.5rem;
+	line-height: 1.5rem; }
+
+hr {
+    border: none;                
+    height: 2px;                
+    background-color: #270054; 
+    margin: 20px 0; }
+
+figure {
+	color: #270054; }
+
+footer {
+	color: #270054;
+	text-transform: uppercase; }
+
+a:visited {
+	color: #2b4d35; }
+
+a:hover {
+	color: #5c1a1c; }
