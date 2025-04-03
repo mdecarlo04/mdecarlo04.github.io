@@ -1,0 +1,111 @@
+.wrapper{
+	display: grid;
+	grid-template-rows: 75px 340px 340px;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+	min-height: 100vh;
+	align-content: stretch;
+}
+
+body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+header{
+	grid-row: 1 / 2;
+	grid-column: 1 / 7;
+	background-color: #d96fa1;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+
+.box1{
+	grid-row: 2 / 3;
+	grid-column: 1 / 4;
+	background-color: #f5cbdf;
+	margin: 0;
+	padding: 1rem;
+}
+
+.box2{
+	grid-row: 2 / 3;
+	grid-column: 4 / 7;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+.box2 img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover
+}
+
+.box2 figure{
+	margin: 0;
+	padding: 0;
+}
+
+.box3{
+	grid-row: 3 / 4;
+	grid-column: 1 / 3;
+	background-color: #fff2fd;
+	margin: 0;
+	padding: 0;
+}
+
+.box4{
+	grid-row: 3 / 4;
+	grid-column: 3 / 5;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+.box4 img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.box4 figure{
+	margin: 0;
+	padding: 0;
+}
+
+.box5{
+	grid-row: 3 / 4;
+	grid-column: 5 / 7;
+	background-color: #fff2fd;
+	margin: 0;
+	padding: 0;
+}
+
+h2{
+	text-align: center;
+	padding: 6rem;
+}
+
+h3{
+	margin: 1rem;
+}
+
+p{
+	margin: 1rem;
+}
+
+.float-img{
+	float: right;
+	padding: .5em;
+	margin-left: 1rem;
+	margin-bottom: 0.5rem;
+	width: 40%;
+	max-width: 200px;
+	display: block;
+}
