@@ -1,13 +1,4 @@
-.wrapper{
-	display: grid;
-	grid-template-rows: auto auto auto auto;
-	grid-template-columns: 1fr 1fr 1fr;
-	min-height: 100vh;
-	align-content: stretch;
-	align-items: start;
-}
-
-
+/* This is css reused for every page */
 body{
 	background-color: #dfe4f5;
 }
@@ -23,7 +14,7 @@ header{
 h1{
 	text-align: center;
 	font-family: "Marcellus", serif;
-	font-size: 400%;
+	font-size: 450%;
 	color: #270054;
 	margin: 1rem;
 }
@@ -56,7 +47,27 @@ nav ul{
 }
 
 li{
-	font-size: 150%;
+	font-size: 175%;
+}
+
+address a{
+	color: #270054;
+}
+
+address a:hover{
+	color: blue;
+}
+/* Every page css ends here */
+
+/* Start here for home page css */
+
+.wrapper{
+	display: grid;
+	grid-template-rows: auto auto auto auto;
+	grid-template-columns: repeat(3, minmax(0, 1fr));
+	min-height: 100vh;
+	align-content: stretch;
+	align-items: start;
 }
 
 .box1{
@@ -65,13 +76,28 @@ li{
 	padding-left: 1rem;
 }
 
+.box1 img{
+	max-width: 100%;
+	height: auto;
+	display: block;
+	margin: 0 auto;
+	object-fit: contain;
+}
+
 
 .box2{
 	grid-row: 2 / 3;
 	grid-column: 2 / 4;
 	max-width: 700px;
 	padding: 1rem;
+}
 
+.box2 article{
+	background-color: white; 
+	border: 2px dotted #270054; 
+	padding: 1.3rem; 
+	margin: 0.5rem auto 1.5rem;
+	border-radius: 1.5rem; 
 }
 
 .box3{
@@ -80,36 +106,26 @@ li{
 	margin: 1rem 2rem 0;
 }
 
-.box4{
+.work-samples{
+	display: flex;
+	gap: 1rem;
+	padding: 1rem;
 	grid-row: 4 / 5;
-	grid-column: 1 / 2;
+	grid-column: 1 / 4;
 }
 
-.box4 img{
-	max-width: 100%;
-	height: auto;
-	display: block;
-	margin: 0 auto;
-}
-
-.box5{
-	grid-row: 4 / 5;
-	grid-column: 2 / 3;
-}
-
-.box6{
-	grid-row: 4 / 5;
-	grid-column: 3 / 4;
+.work-samples > div {
+	flex: 1;
 }
 
 h2{
 	color: #270054;
-	font-size: 200%;
+	font-size: 250%;
 	margin-top: 0;
 }
 
 p{
-	font-size: 150%;
+	font-size: 175%;
 }
 
 
@@ -123,6 +139,7 @@ p{
 .box4 figure{
 	max-width: 100%;
 	padding: 1rem;
+	word-wrap: break-word;
 }
 
 .box5 img{
@@ -135,6 +152,20 @@ p{
 .box5 figure{
 	max-width: 100%;
 	padding: 1rem;
+	word-wrap: break-word;
+}
+
+.box6 img{
+	width: 100%;
+	height: auto;
+	display: block;
+	margin-bottom: 0 auto 0.5rem;
+}
+
+.box6 figure{
+	max-width: 100%;
+	padding: 1rem;
+	word-wrap: break-word;
 }
 
 .box4 figcaption{
@@ -147,8 +178,13 @@ p{
 	padding: 1rem;
 }
 
+.box6 figcaption{
+	font-size: 125%;
+	padding: 1rem;
+}
+
 .box4 figcaption a{
-	color: #2700542	qZX;
+	color: #270054;
 }
 
 .box4 figcaption a:hover{
@@ -163,13 +199,141 @@ p{
 	color: blue;
 }
 
-address a{
+.box6 figcaption a{
 	color: #270054;
 }
 
-address a:hover{
+.box6 figcaption a:hover{
 	color: blue;
 }
 
+figcaption{
+	word-wrap: break-word;
+	overflow-wrap: break-word;
+	word-break: break-word;
+}
+
+figure{
+	max-width: 100%;
+	overflow: hidden;
+}
+
+@media screen and (max-width: 800px) { /* Home page grid stacks below each other when the screen gets smaller */
+	.work-samples {
+		flex-direction: column;
+	}
+
+	.work-samples > div {
+		width: 100%;
+	}
+
+	.box1,
+	.box2,
+	.box3,
+	.work-samples {
+		grid-column: 1 / 4;
+		grid-row: auto;
+	}
+}
 
 
+/* Home page css ends */
+
+/* Start here for about me page css */
+
+.about p{
+	margin: 1.3rem;
+	font-size: 175%;
+	margin-left: 0;
+}
+
+.about h2{
+	font-size: 250%;
+	margin-left: 0;
+}
+
+.about {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 2rem; 
+    margin: 2rem;
+}
+
+.about img {
+    width: 23%;
+    height: auto;
+    display: block;
+    margin: 0;
+}
+
+.about article {
+	background-color: white;
+    border: 2px dotted #270054; 
+    padding: 1.3rem; 
+    margin: 0;
+    border-radius: 1.5rem; 
+    max-width: 1000px; 
+}
+
+/* Contact page css begins here */
+
+.contact article{
+	background-color: white; 
+	border: 2px dotted #270054; 
+	padding: 1.3rem; 
+	margin: 0.5rem auto 1.5rem;
+	border-radius: 1.5rem; 
+	max-width: 1200px;
+}
+
+.contact article a{
+	color: #270054;
+}
+
+.contact article a:hover{
+	color: blue;
+}
+
+/*Contact page css ends here */
+
+/*Resume page css begins here */
+
+.resume article{
+	background-color: white; 
+	border: 2px dotted #270054; 
+	padding: 1.3rem; 
+	margin: 0.5rem auto 1.5rem;
+	border-radius: 1.5rem; 
+	max-width: 1200px;
+}
+
+.education article{
+	background-color: white; 
+	border: 2px dotted #270054; 
+	padding: 1.3rem; 
+	margin: 0.5rem auto 1.5rem;
+	border-radius: 1.5rem; 
+	max-width: 1200px;
+}
+
+.literary article{
+	background-color: white; 
+	border: 2px dotted #270054; 
+	padding: 1.3rem; 
+	margin: 0.5rem auto 1.5rem;
+	border-radius: 1.5rem; 
+	max-width: 1200px;
+}
+
+.professional article{
+	background-color: white; 
+	border: 2px dotted #270054; 
+	padding: 1.3rem; 
+	margin: 0.5rem auto 1.5rem;
+	border-radius: 1.5rem; 
+	max-width: 1200px;
+}
+
+/*Resume page css ends here */
