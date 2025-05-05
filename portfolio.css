@@ -337,3 +337,63 @@ figure{
 }
 
 /*Resume page css ends here */
+
+/* Work samples page begins here */
+
+.wrapperwork {
+	display: grid;
+	grid-template-rows: auto auto auto auto;
+	grid-template-columns: repeat(3, minmax(0, 1fr));
+	min-height: 100vh;
+	align-content: stretch;
+	align-items: start;
+}
+
+.wrapperwork article{
+	background-color: white; 
+	border: 2px dotted #270054; 
+	padding: 1.3rem; 
+	margin: 0.5rem auto 1.5rem;
+	border-radius: 1.5rem; 
+	max-width: 1350px;
+}
+
+.collegian{
+	grid-row: 1 / 2;
+	grid-column: 1 / 4;
+}
+
+.books{
+	grid-row: 2 / 3;
+	grid-column: 1 / 2;
+}
+
+.fleetwoodmac{
+	grid-row: 2 / 3;
+	grid-column: 2 / 3
+}
+
+.biopics{
+	grid-row: 2 / 3;
+	grid-column: 3 / 4;
+}
+
+.reboot{
+	grid-row: 3 / 4;
+	grid-column: 1 / 2;
+}
+
+.hungergames{
+	grid-row: 3 / 4;
+	grid-column: 2 / 3;
+}
+
+.barbie{
+	grid-row: 3 / 4;
+	grid-column: 3 / 4;
+}
+
+.jabberwocky{
+	grid-row: 4 / 5;
+	grid-column: 1 / 4;
+}
