@@ -34,10 +34,6 @@ nav a:hover{
 	color: blue;
 }
 
-nav a:visited{
-	color: blue;
-}
-
 nav ul{
 	display: flex;
 	justify-content: center;
