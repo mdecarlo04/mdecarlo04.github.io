@@ -88,7 +88,7 @@ address a:hover{
 .box2{
 	grid-row: 2 / 3;
 	grid-column: 2 / 4;
-	max-width: 700px;
+	max-width: 950px;
 	padding: 1rem;
 }
 
@@ -277,6 +277,14 @@ figure{
     max-width: 1000px; 
 }
 
+.about a{
+	color: #270054;
+}
+
+.about a:hover{
+	color: blue;
+}
+
 /* Contact page css begins here */
 
 .contact article{
@@ -338,7 +346,7 @@ figure{
 
 /*Resume page css ends here */
 
-/* Work samples page begins here */
+/* Work samples page css begins here */
 
 .wrapperwork {
 	display: grid;
@@ -397,3 +405,34 @@ figure{
 	grid-row: 4 / 5;
 	grid-column: 1 / 4;
 }
+
+.books, .fleetwoodmac, .biopics, .reboot, .hungergames, .barbie figcaption{
+	font-size: 125%;
+	padding: 1rem;
+}
+
+.books figcaption a, .fleetwoodmac figcaption a, .biopics figcaption a, .reboot figcaption a, .hungergames figcaption a, .barbie figcaption a{
+	color: #270054;
+}
+
+.books figcaption a:hover, .fleetwoodmac figcaption a:hover, .biopics figcaption a:hover, .reboot figcaption a:hover, .hungergames figcaption a:hover, .barbie figcaption a:hover{
+	color: blue;
+}
+
+.jabberwocky  a{
+	color: #270054;
+}
+
+.jabberwocky a:hover{
+	color: blue;
+}
+
+.collegian  a{
+	color: #270054;
+}
+
+.collegian a:hover{
+	color: blue;
+}
+
+/*End of work samples page css*/
