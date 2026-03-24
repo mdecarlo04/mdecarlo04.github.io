@@ -10,7 +10,7 @@ One aspect of digital accessibility is using audio description. My team and I sp
 - How to add audio description to a video
 
 ## Tools and Concepts Used
-My part of the project was detailing how to add audio description to a video in ClipChamp. This involved using the screenshot feature to add images to my instructions and to work in ClipChamp to get the necessary information. In describing what audio and integrated description is, my teammate used online resources from Harvard University, WebAIM, and University of South Carolina. They also used online resources from James Madison University, the University of Washington and the University of Maryland to get information about the different types of disabilities and who benefits from audio description. The different types of disabilities that we discuss are:  
+My part of the project was detailing how to add audio description to a video in ClipChamp. This involved using the screenshot feature to add images to my instructions and to work in ClipChamp to get the necessary information. In describing what audio and integrated description is, my teammate used online resources from Harvard University, WebAIM, and University of South Carolina. They also used online resources from James Madison University, the University of Washington and the University of Maryland to get information about the different types of disabilities and who benefits from audio description. The different types of disabilities that we discuss are:
 1. Visual disabilities
 2. Auditory disabilities
 3. Motor disabilities
