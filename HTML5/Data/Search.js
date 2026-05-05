@@ -1,1 +1,1 @@
-define({r:0.5,st:'Stem',n:1,t:[0],m:[],u:['../Content/A-Introduction-Topics/Getting-Started.htm'],s:['1'],p:[['1',11],['people',3]]});
+define({r:0.5,st:'Stem',n:1,t:[0],m:[],u:['../Content/Accessibility/What-is-accessibility.htm'],s:['+','marino'],p:[['+',19],['captioning',6],['fault',0],['mandating',7],['role',6],['topics',10]]});
