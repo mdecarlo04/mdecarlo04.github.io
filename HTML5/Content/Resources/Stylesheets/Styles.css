@@ -403,9 +403,9 @@ div.quick-links *	/*Text-align center set to all elements within div.quick-links
 div.topic-hero
 {
 	padding: 5%;
-	background-image: url('../Images/Hero-Image.png');
 	background-size: cover;
 	background-attachment: scroll;
+	background-image: url('../Images/background_texture_wall_paper.jpg');
 }
 
 div.topic-hero h1
@@ -555,7 +555,7 @@ p.frame-footer-text
 	height: 90px;
 	width: 724px;
 	background-color: transparent;
-	background-image: url('../Images/Logo.svg');
+	background-image: url('../Images/flarelogo2.png');
 	background-repeat: no-repeat;
 	background-size: auto 100%;
 }
@@ -587,7 +587,7 @@ div.home-footer
 
 .home-footer-logo
 {
-	background-image: url('../Images/Logo.png');
+	background-image: url('../Images/flarelogo2.png');
 	background-repeat: no-repeat;
 	background-position: right center;
 	width: 400px;
