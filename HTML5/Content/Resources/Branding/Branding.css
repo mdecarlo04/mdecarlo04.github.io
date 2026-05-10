@@ -11,9 +11,9 @@
 	--Light: #DADEE1;
 	--Lightest: #FFFFFF;
 	--Medium: #A4AAAE;
-	--HeroImage: url('../Images/Hero-Image.png');
 	--FontFamily: Arial, Avenir, Myriad;
-	--LogoImage: url('../Images/Logo.png');
-	--LogoImagePrint: url('../Images/Logo.svg');
+	--HeroImage: url('../Images/Hero-Image.png');
+	--LogoImage: url('../Images/flarelogo2.png');
+	--LogoImagePrint: url('../Images/flarelogo2.png');
 }
 
