@@ -1,1 +1,1 @@
-define({numchunks:1,prefix:'Glossary_Chunk',terms:[{t:'Consectetur',c:0},{t:'Ipsum',c:0},{t:'Lorem',c:0},{t:'Maecenas',c:0},{t:'Maximus',c:0}]});
+define({numchunks:1,prefix:'Glossary_Chunk',terms:[{t:'Accessible design',c:0},{t:'Medical model of disability',c:0},{t:'Social model of disability',c:0},{t:'Universal design',c:0}]});
